@@ -1,0 +1,53 @@
+<html>
+   <head>
+      <title>Friends Tiffins</title>
+        <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="style.css">
+      <header>
+         <div class="header-2">
+            <div id="menu-bar" class="fas fa-bars"></div>
+            <nav class="navbar">
+                <a href="home.html" class="btn btn-info" role="button" style="border: green;" >HOME</a>
+                <a href="RegistrationPage.html" class="btn btn-info" role="button" style="border: green;" >REGISTRATION</a>
+                <a href="Loginpage.html" class="btn btn-info" role="button" style="border: green;">LOGIN</a>
+                <a href="Tiffins.html" class="btn btn-info" role="button" style="border: green;">TIFFINS</a>
+                <a href="ContactUs.html" class="btn btn-info" role="button" style="border: green;" >CONTACT US</a>
+            </nav>    
+        </div>
+    </header>
+    <style>
+        body{
+            background-image: url(Background.png);
+        }
+        h1,h2{
+            background-color: aqua;
+            text-align: center;
+        }
+        h5{
+            background-color: blanchedalmond;
+            text-align: right;
+        }
+        header{
+            text-align: center;
+        }
+      </style>
+   </head>
+       <body>
+        <h1>
+            FRIENDS TIFFIN'S
+            <h5>
+                PROJECT:Friends Tiffins<br>
+                Mentor :RamKumar <br>
+                Done by: Anirudh Bharadwaj<br>              
+            </h5>
+        </h1>
+        <h2>
+            ORDER YOUR FAVORITE TIFFIN'S ONLINE
+        </h2>
+       </body>
+
+</html>

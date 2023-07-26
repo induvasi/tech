@@ -1,0 +1,85 @@
+<html>
+   <head>
+      <title>Registration Website</title>
+      <style>
+        body{background-color: aquamarine;
+        }
+        div{background-color: rgb(234, 47, 128);
+        }
+        .PersonalInformation{               
+             height: 470px;
+             width:auto;
+             background-color: rgb(180, 41, 122);
+             text-align:justify;
+            }
+
+
+        .button{
+             text-align: center;
+             background-color: blanchedalmond(0, 0, 0);
+             border: none;
+            }
+
+
+        .profilesummary{
+            height: 400px;
+             width:auto;
+             background-color: rgb(237, 205, 223);
+             text-align:justify;
+            }
+
+
+
+        .quit{
+             border: none;
+             background-color: rgb(9, 80, 138) ;
+                
+            }
+
+
+        .register{
+             border: none;
+             background-color: rgb(32, 218, 88);
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Registration Page</h1>
+        <div class = PersonalDetails>
+        <h2> Enter your Personal Details</h2>
+        <form>
+            Enter Your  Name: <input type="text">
+            <br>
+            <br>
+            Enter Your Username: <input type="text">
+            <br>
+            <br>
+            Enter Your Password: <input type="password">
+            <br>
+            <br>
+            Mobile Number: <input type="number">
+            <br>
+            <br>
+            Select Gender:
+            <br>
+            <br>
+            <input type="radio" name="Gender" value="Female"> Female 
+            <br>
+            <br>
+            <input type="radio" name="Gender" value="Male"> Male 
+            <br>
+            <br>
+            Select a State: 
+            <select name="Select Your State">
+                <option value="Andhra Pradesh">Andhra Pradesh</option>
+                <option value="Telangana">Telangana</option>
+                <option value="Tamil Nadu">Tamil Nadu</option>
+                <option value="Karnataka">Karnataka</option>
+            </select>
+            <br> <br> <br> <br>
+                      
+         <button class = "register" type="submit">Register</button>
+            <button class = "quit" type="reset" >Reset</button>
+        </form>
+    </body>
+</html>

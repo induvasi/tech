@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>login pagee validation</title>
+        <script>
+            function myvalidate(form){
+
+                var myusername =form.username.value;
+                var mypassword =form.password.value;
+
+            if(myusername.length===0){
+
+                    alert("you must enter valid username")
+                    return false;
+                }
+            if(mypassword.length===0){
+                    alert("you must enter valid password")
+                    return false;
+                }
+            }
+        </script>
+
+
+    </head>
+    <body>
+        <h1>Login form</h1>
+        <form action="" onsubmit="return myvalidate(this)" >
+
+            user name : <input type="text" name="unname" size="10"><br>
+            password : <input type="password" name="pass" size="10"><br>
+
+            <input type="submit">
+        </form>
+
+    </body>
+
+</html>

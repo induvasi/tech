@@ -1,0 +1,46 @@
+<html>
+<head>
+    <title>Contact Us Form</title>
+    <script>
+      function contactvalidate(form){
+          var myfirstname=form.firstname.value;
+          if(myfirstname.length===0){
+              alert("you must enter valid firstname")
+              return false;
+          }
+          var mylastname=form.lastname.value;
+          if(mylastname.length===0){
+              alert("you must enter valid lastname")
+              return false;
+          }
+          var mycountry=form.country.value;
+          if(mycountry.length===0){
+              alert("you must  enter valid country")
+              return false;
+          }
+          
+      }
+  </script>
+</head>
+<body>
+  <body background="C:\Users\ANIRUDH BHARADWAJ\Downloads\Sagar.Jpg" width: 100% height: 100% text-align:center></body>
+  <form action="D:\UI development\01-HTML\success.html" onsubmit="return contactvalidate(this)">
+    <h3>Contact Us</h3>
+      <p>Contact Information</p>
+         <label>First Name*</label>
+        <input type="text"  name="firstname" placeholder="Your first name.."><br><br>
+        <label for="lname">Last Name*</label>
+        <input type="text"  name="lastname" placeholder="Your last name.."><br><br>
+        <label for="country">Country*</label>
+        <select  name="country">
+            <option value=""></option>
+          <option value="India">India</option>  
+          <option value="Australia">Australia</option>
+          <option value="Canada">Canada</option>
+          <option value="USA">USA</option>
+        </select><br><br>
+        <textarea cols="30" rows="10">write....</textarea>   <br><br>
+        <input type="submit">
+  </form>      
+</body>
+</html>
